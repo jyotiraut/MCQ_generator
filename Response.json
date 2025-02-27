@@ -1,0 +1,26 @@
+{
+    "quiz": [
+        {
+            "question_number": 1,
+            "question": "Multiple choice question here",
+            "options": {
+                "1": "Option 1",
+                "2": "Option 2",
+                "3": "Option 3",
+                "4": "Option 4"
+            },
+            "correct_answer": "Correct Answer"
+        },
+        {
+            "question_number": 2,
+            "question": "Multiple choice question here",
+            "options": {
+                "1": "Option 1",
+                "2": "Option 2",
+                "3": "Option 3",
+                "4": "Option 4"
+            },
+            "correct_answer": "Correct Answer"
+        }
+    ]
+}

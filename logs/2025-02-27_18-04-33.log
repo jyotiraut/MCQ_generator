@@ -1,0 +1,22 @@
+[2025-02-27 18:05:00] ERROR - An error occurred: Traceback (most recent call last):
+  File "C:\Users\acer\OneDrive\Desktop\Gen AI\projects\MCQ_generator\src\mcqgenerator\utils.py", line 10, in read_file
+    pdf_reader=PyPDF2.PdfFileReader(file)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\anaconda3\Lib\site-packages\PyPDF2\_reader.py", line 1974, in __init__
+    deprecation_with_replacement("PdfFileReader", "PdfReader", "3.0.0")
+  File "C:\Users\acer\anaconda3\Lib\site-packages\PyPDF2\_utils.py", line 369, in deprecation_with_replacement
+    deprecation(DEPR_MSG_HAPPENED.format(old_name, removed_in, new_name))
+  File "C:\Users\acer\anaconda3\Lib\site-packages\PyPDF2\_utils.py", line 351, in deprecation
+    raise DeprecationError(msg)
+PyPDF2.errors.DeprecationError: PdfFileReader is deprecated and was removed in PyPDF2 3.0.0. Use PdfReader instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\acer\OneDrive\Desktop\Gen AI\projects\MCQ_generator\StreamlitApp.py", line 36, in <module>
+    text = read_file(uploaded_file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\OneDrive\Desktop\Gen AI\projects\MCQ_generator\src\mcqgenerator\utils.py", line 17, in read_file
+    raise Exception("error reading the PDF file")
+Exception: error reading the PDF file
+
